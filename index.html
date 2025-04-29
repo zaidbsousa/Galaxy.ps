@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Training Center - Excellence in Education</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/galaxy-logo-white.png" alt="Galaxy Training Center Logo" class="logo-default">
+                        <img src="images/galaxy-logo-white.png" alt="Galaxy Training Center Logo" class="logo-white">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item active"><a href="index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#about">About Us <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#about">About Galaxy</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#partners">Our Partners</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#services">Our Services <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#services">Vocational Training</a></li>
+                                <li><a href="#services">Academic Courses</a></li>
+                                <li><a href="#services">AI Certifications</a></li>
+                                <li><a href="#services">Online Learning</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#programs">Programs</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <a href="#" class="active">EN</a>
+                        <span style="color: #b0b0b0;">|</span>
+                        <a href="#">AR</a>
+                    </div>
+                    <button class="mobile-menu-toggle" style="height: 35px;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg bg-1"></div>
+        <div class="hero-bg bg-2"></div>
+        <div class="hero-bg bg-3"></div>
+        <div class="hero-bg bg-4"></div>
+        <div class="hero-content">
+            <h1 class="tagline-part-1" data-aos="fade-up" data-aos-delay="100">Train Your Brain</h1>
+            <h1 class="tagline-part-2" data-aos="fade-up" data-aos-delay="150">Unlock Your Potential</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Leading the way in vocational, academic, and AI education, <strong>In Palestine and the region.</strong></p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="#programs" class="btn btn-primary">Explore Our Programs</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Galaxy Training Center</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>Galaxy Training Center is a leading educational institution in Palestine, dedicated to providing high-quality training programs since its establishment in 1997. We offer a wide range of vocational, academic, and specialized courses designed to meet the needs of individuals, businesses, and organizations.</p>
+                    <p>Our mission is to empower students with practical skills and knowledge that prepare them for successful careers in their chosen fields. With over 27 years of excellence and more than 35,000 graduates, Galaxy has established itself as a pioneer in the training sector.</p>
+                </div>
+                <div class="about-highlights" data-aos="fade-left">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h3>Excellence</h3>
+                            <p>Committed to delivering the highest standards of education and training</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h3>Expert Instructors</h3>
+                            <p>Learn from certified professionals with real-world experience</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h3>Recognized Certifications</h3>
+                            <p>Earn credentials that are valued by employers locally and globally</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-cta" data-aos="fade-up">
+                <a href="#" class="btn btn-outline">Learn More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="services section bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <div class="section-divider"></div>
+                <p>Comprehensive training solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Vocational Training</h3>
+                    <p>Practical skills-based programs in various technical and professional fields including interior design, digital marketing, computer maintenance, and more.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Courses</h3>
+                    <p>Structured academic programs designed to enhance knowledge and qualifications in business administration, languages, engineering, and more.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Certifications</h3>
+                    <p>Cutting-edge AI courses with globally recognized certifications through our partnership with AI Certs™, covering everything from AI foundations to specialized applications.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>Online Learning</h3>
+                    <p>Flexible distance learning options to study at your own pace, with access to the same high-quality content and instructor support as our in-person courses.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Programs Section -->
+    <section id="programs" class="programs section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Featured Programs</h2>
+                <div class="section-divider"></div>
+                <p>Discover our most popular training programs and courses</p>
+            </div>
+            <div class="program-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="vocational">Vocational</button>
+                <button class="filter-btn" data-filter="courses">Courses</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+            </div>
+            <div class="programs-grid">
+                <!-- Vocational Cards (default visible) -->
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-image">
+                        <img src="images/svg/program-interior-design.png" alt="Interior Design Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Interior Design</h3>
+                        <p>Learn professional interior design techniques and principles</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Months</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="150">
+                    <div class="program-image">
+                        <img src="images/svg/program-digital-marketing.png" alt="Digital Marketing Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Master digital marketing strategies and tools for business growth</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Months</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-image">
+                        <img src="images/svg/program-master-chef.png" alt="Master Chef Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Master Chef</h3>
+                        <p>Professional culinary arts and restaurant management training</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Months</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="250">
+                    <div class="program-image">
+                        <img src="images/svg/program-computer-maintenance.png" alt="Computer Maintenance Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Network Maintenance</h3>
+                        <p>Master Network troubleshooting techniques with great practical experience</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 4 Months</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="300">
+                    <div class="program-image">
+                        <img src="images/svg/program-multimedia.png" alt="Multimedia Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Multimedia</h3>
+                        <p>Comprehensive training in graphic design, video editing, and digital media production</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Months</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card vocational" data-aos="fade-up" data-aos-delay="350">
+                    <div class="program-image">
+                        <img src="images/svg/program-auto-mechatronics.png" alt="Auto Mechatronics Program">
+                        <div class="program-labels">
+                            <div class="program-category">Vocational</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Auto Mechatronics</h3>
+                        <p>Comprehensive car repair and maintenance training</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 9 Months</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Courses Cards (hidden by default) -->
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="100" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/Proposal.png" alt="Proposal Writing Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Proposal Writing</h3>
+                        <p>Learn how to craft compelling and effective proposals for various purposes</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="150" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/program-accounting.png" alt="Al Shamel Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Al Shamel</h3>
+                        <p>Gain expertise in financial management and reporting</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="200" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/program-english.png" alt="English+ Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>English+</h3>
+                        <p>Enhance your English communication and writing skills</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 4 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="250" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/program-math.png" alt="Hebrew Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Hebrew</h3>
+                        <p>Build a strong foundation in Hebrew language and communication</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="300" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/program-physics.png" alt="Reels and Tiktok Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Reels and Tiktok</h3>
+                        <p>Explore the principles of content creation for social media</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card courses" data-aos="fade-up" data-aos-delay="350" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/program-chemistry.png" alt="Excel Program">
+                        <div class="program-labels">
+                            <div class="program-category">Courses</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Excel</h3>
+                        <p>Understand advanced Excel principles and data analysis techniques</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Weeks</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- AI Cards (hidden by default) -->
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="100" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/foundation.png" alt="AI Foundation Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>AI Foundation™</h3>
+                        <p>Essential artificial intelligence concepts and applications</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Beginner</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="150" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/everyone.png" alt="AI for Everyone Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>AI for Everyone™</h3>
+                        <p>Introduction to AI for professionals in any industry</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Beginner</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="200" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/Project.png" alt="Project Manager Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Project Manager</h3>
+                        <p>Explore ethical considerations in artificial intelligence</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 4 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="250" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/Prompt.png" alt="Prompt Engineer 2 Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Prompt Engineer 2</h3>
+                        <p>Hands-on training in prompt engineering for AI models</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 6 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="300" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/Marketing.png" alt="Marketing Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Marketing</h3>
+                        <p>Learn how AI understands and generates human language for marketing</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card ai" data-aos="fade-up" data-aos-delay="350" style="display:none">
+                    <div class="program-image">
+                        <img src="images/svg/Developer.png" alt="Developer Program">
+                        <div class="program-labels">
+                            <div class="program-category">AI</div>
+                            <div class="program-popular">Most Popular</div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Developer</h3>
+                        <p>Discover how AI interprets and processes visual data for developers</p>
+                        <div class="program-meta">
+                            <span><i class="far fa-clock"></i> 5 Weeks</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="programs-cta" data-aos="fade-up">
+                <a href="#" class="btn btn-primary">View All Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galaxy Stats Section -->
+    <section class="stats section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2  style="color:white;">Galaxy Stats</h2>
+                <div class="section-divider"></div>
+                <p  style="color:white;">Leading the way in vocational, academic, and AI education in Palestine</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="stat-number"><span class="counter" data-count="25">0</span>+</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="stat-number"><span class="counter" data-count="35000">0</span>+</div>
+                    <div class="stat-label">Graduates</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="stat-number"><span class="counter" data-count="100">0</span>+</div>
+                    <div class="stat-label">Professional Trainers</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stat-number"><span class="counter" data-count="150">0</span>+</div>
+                    <div class="stat-label">Programs Offered</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What Our Students Say</h2>
+                <div class="section-divider"></div>
+                <p>Hear from those who have experienced our training programs</p>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-flex">
+                    <div class="testimonial-nav-left">
+                        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    </div>
+                    <div class="testimonial-item" style="display: block;">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"Galaxy Training Center provided me with practical skills that helped me secure a job immediately after graduation. The instructors were knowledgeable and supportive throughout my journey."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/svg/testimonial-1.png" alt="Student Testimonial">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Ahmed</h4>
+                                    <p>Digital Marketing Graduate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item" style="display: none;">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"The AI certification program at Galaxy was transformative for my career. I gained cutting-edge skills that are highly sought after in today's job market. Highly recommended!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/svg/testimonial-2.png" alt="Student Testimonial">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Mohammed Khalid</h4>
+                                    <p>AI Foundation™ Graduate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item" style="display: none;">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"As a business owner, the skills I learned at Galaxy helped me grow my company and improve our operations. The practical approach to learning made all the difference. Thank you Galaxy Training Center for your support and guidance."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/svg/testimonial-3.png" alt="Student Testimonial">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Layla Nasser</h4>
+                                    <p>Business Administration Graduate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-nav-right">
+                        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Partners</h2>
+                <div class="section-divider"></div>
+                <p>Collaborating with leading organizations to deliver excellence in education</p>
+            </div>
+            <div class="partners-carousel" data-aos="fade-up">
+                <div class="partners-track">
+                    <div class="partner-item">
+                        <img src="images/svg/partner-1.png" alt="Partner Logo">
+                    </div>
+                    <div class="partner-item">
+                        <img src="images/svg/partner-2.png" alt="Partner Logo">
+                    </div>
+                    <div class="partner-item">
+                        <img src="images/svg/partner-3.png" alt="Partner Logo">
+                    </div>
+                    <div class="partner-item">
+                        <img src="images/svg/partner-4.png" alt="Partner Logo">
+                    </div>
+                    <div class="partner-item">
+                        <img src="images/svg/partner-5.png" alt="Partner Logo">
+                    </div>
+                    <div class="partner-item">
+                        <img src="images/svg/partner-6.png" alt="Partner Logo">
+                    </div>
+                </div>
+            </div>
+            <div class="partners-cta" data-aos="fade-up">
+                <a href="#" class="btn btn-outline">Become a Partner</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <div class="section-divider"></div>
+                <p>Get in touch with our team to learn more about our programs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Our Locations</h3>
+                            <p>Ramallah: Al-Bireh, Al-Nahda Building, 2nd Floor</p>
+                            <p>Nablus: Rafidia Street, Nablus Commercial Complex, 2nd Floor</p>
+                            <p>Bethlehem: Bab Al-Zqaq, Al-Quds Open University Building</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>1700 666  000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>Marketing@galaxy.ps</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!-- <section class="map-section">
+        <div class="map-container">
+            Placeholder for map
+            <div class="map-placeholder">
+                <img src="images/svg/map.svg" alt="Galaxy Training Center Location">
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/galaxy-logo-white.png" alt="Galaxy Training Center Logo">
+                    <p>Excellence in education and training since 1997</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-programs">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#">Vocational Diplomas</a></li>
+                        <li><a href="#">Academic Courses</a></li>
+                        <li><a href="#">AI Certifications</a></li>
+                        <li><a href="#">Online Learning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Ramallah, Palestine</p>
+                    <p><i class="fas fa-phone-alt"></i> 1700 666 000</p>
+                    <p><i class="fas fa-envelope"></i> Marketing@galaxy.ps</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Galaxy Training Center. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <!-- Back to Top Button -->
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
