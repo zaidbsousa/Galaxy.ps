@@ -2020,4 +2020,16 @@ img {
         margin-top: 2px !important;
         line-height: 1 !important;
     }
+    .logo img {
+        height: 36px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        transition: transform 0.3s ease-in-out;
+    }
+    .header.nav-up {
+        transform: translateY(-100%);
+    }
 }
