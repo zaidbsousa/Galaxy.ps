@@ -217,15 +217,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Auto-slide testimonials on mobile
+let testimonialInterval; // Add this at the top of your file (outside functions)
+
 function autoSlideTestimonials() {
-    if (window.innerWidth > 576) return;
+    if (window.innerWidth > 576) {
+        // On larger screens, show only the first testimonial and clear interval
+        clearInterval(testimonialInterval);
+        const testimonials = document.querySelectorAll('.testimonial-item');
+        testimonials.forEach((item, i) => {
+            item.style.display = i === 0 ? 'block' : 'none';
+        });
+        return;
+    }
     const testimonials = document.querySelectorAll('.testimonial-item');
     let current = 0;
     testimonials.forEach((item, i) => {
         item.style.display = i === 0 ? 'block' : 'none';
     });
-    setInterval(() => {
+    clearInterval(testimonialInterval); // Prevent multiple intervals
+    testimonialInterval = setInterval(() => {
         testimonials[current].style.display = 'none';
         current = (current + 1) % testimonials.length;
         testimonials[current].style.display = 'block';
