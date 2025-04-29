@@ -686,6 +686,7 @@ img {
     .hero-buttons .btn {
         width: 100%;
         padding: 12px 20px;
+        
     }
 }
 
@@ -1985,7 +1986,38 @@ img {
 }
 
 @media (max-width: 576px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        padding: 0 2px;
+    }
+    .service-card {
+        padding: 8px 4px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+        margin-bottom: 4px;
+        min-height: unset;
+    }
+    .service-card h3,
+    .service-card i,
+    .service-card svg {
+        margin-bottom: 2px !important;
+    }
+    .service-card .btn,
+    .service-card button {
+        margin-top: 4px !important;
+        margin-bottom: 0 !important;
+    }
+    .service-card {
+        padding-bottom: 8px;
+    }
     .service-card p {
-        display: none;
+        display: none !important;
+    }
+    .service-card h3 {
+        font-size: 0.85rem !important;
+        margin-bottom: 0px !important;
+        margin-top: 2px !important;
+        line-height: 1 !important;
     }
 }
